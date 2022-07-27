@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+:root{
+    --green-black-black:#689e04;
+    --green-black-normal:#7dbd09;
+    --green-black-light:#94dd0c;
+    --white:#f0f0f0;
+    --black:#1b1722;
+    --box-shadow: 0 0px 4px rgba(0, 0, 0, 0.25);
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+html{
+    font-size: 68.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-slider-thumb{
+    background-color: var(--white);
+    border-radius: 5rem;
+}
+/*********************** Navbar START ****************************************/
+.ustmenu{
+    position:fixed; 
+    top:0px; left:0px; right:0px; 
+    height:70px;
+    z-index: 9999;
+    padding:0 3rem;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.336);   
+    font-weight: 700;  
+}
+nav img{
+    height: 60px;
+    width: 120px;
+    padding-left: 3rem;
+}
+nav ul li{
+    padding-left: 2rem;
+}
+/*********************** Navbar END ****************************************/
+
+/******************************* Menu START ******************************************/
+.images{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.795),rgba(0, 0, 0, 0.664)), url(/asstes/images/baçivna-fotoğrafı.jpg);  
+    height: 670px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    background-size: cover;   
+}
+.images .box{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: justify;
+    padding: 15rem;
+    color: var(--white);
+}
+.images .box h5{
+    color: var(--green-black-light);
+}
+.images .box h4{
+   font-weight:100;
+   line-height: 2.5rem;
+   text-transform: none;
+}
+.icon{
+    background-color: #ffffff00;
+    display: flex;
+    padding: 2rem;   
+    font-size: 2rem;
+    color: var(--white);
+}
+.icon i{
+    margin-left: -2rem;
+}
+.icon p{
+    margin-top: .2rem;
+    margin-left: 2rem;
+}
+/************************************* Menu END *****************************************/
+
+/****************************************** Biz Kimiz START ******************************/
+.we{
+    margin-top: 3rem;
+    text-align: center;
+}
+.we .box{
+    
+    padding-top: 1.5rem;
+    height: 100px;
+    margin:0 2rem;
+}
+.we .box1{
+    background-color: var(--green-black-black); 
+    height: 140px;
+    margin:12rem 2rem 0rem 2rem;
+    text-align: justify;
+    font-size: 1.4rem;
+    padding: 2rem 2rem 0 2rem;
+}
+.we .box img{
+    width: 100%;
+    box-shadow: 15px 15px 5px var(--green-black-black);
+}
+.we .box1 p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: justify;
+    color: var(--white);
+    text-transform: none;
+}
+.rero img{
+    height: 200px;
+    width: 200px;
+    -webkit-transform: rotate(-90deg);
+    margin-top: 0rem;
+    float: right;
+    margin-top: 7rem;
+}
+.rero1 img{
+    height: 200px;
+    width: 200px;
+    -webkit-transform: rotate(0deg);
+    margin-top: 0rem;
+    float: left;
+    margin-top: 7rem;
+}
+/************************************* Biz Kimiz End ************************************/
+.services {
+    background-image:linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.2)), url(/asstes/images/toprak-ekimi.jpg);
+    margin-top: 30rem;
+    height: 600px;
+    background-size: cover;   
+}
+ .üst{
+    padding-top: -3rem;
+}
+
+.services .yazi{
+    text-align: center;
+    padding: 0 10rem;
+
+}
+.services .yazi h3{
+    color: var(--white);
+    padding-top: 9rem;
+    font-weight: 400;
+}
+.services .yazi h1{
+    color: var(--white);
+    padding-top: 1rem;
+    font-weight: 700;
+}
+.services .yazi .box{
+    margin-top: 5rem;
+}
+.services .yazi .box span{
+    font-weight: 700;
+    color: var(--white);
+}
+.services .yazi .box h4{
+    color: var(--white);
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.services .yazi .box p{
+    color: var(--white);
+    font-weight: 400;  
+}
+.alt{ 
+    padding-top: 123px;
+}
+/****************************************** anlatim ****************************************/
+.anlatim{
+    margin-top: 3rem;
+    padding: 0 4rem;
+}
+.anlatim p{
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.anlatim .box img{
+   width: 100%;
+   height: 26rem;
+}
+.anlatim .box .img-title {
+    position: absolute;
+    display: block;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    border-top: 3px solid var(--green-black-light);
+    border-bottom: 3px solid var(--green-black-light);
+    opacity: 0;
+    color: var(--white);
+    text-align: center;
+ }
+ .anlatim .box:hover::before{
+    content: "";
+    background: #1b17228a;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+ }
+ .anlatim .box:hover .img-title{
+    opacity: 1;
+ }
+ .anlatim .box .img-write{
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color: var(--white);
+    font-size: 1.5rem;
+    text-transform: none;
+    text-align: justify;
+    width: 100%;
+    padding: 0 2rem;
+    text-align: center;
+}
+.anlatim .box:hover .img-write{
+    opacity: 1;
+}
+.anlatim .box .yönetici{
+    position: absolute;
+    display: block;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color: var(--white);
+    font-size: 1.5rem;
+    text-transform: none;
+    text-align: justify;
+    width: 100%;
+    padding: 0 2rem;
+    text-align: center;
+    border-top: 2px solid var(--green-black-light);
+    padding-top: 1rem;
+}
+.anlatim .box:hover .yönetici{
+    opacity: 1;
+}
+.calisma{
+    background: var(--green-black-black);
+    margin-top: 6rem;
+    align-items: center;
+}
+.calisma .üst{
+    margin-top: 5rem;
+}
+.calisma p{
+    color: var(--white);
+    padding-top: 3rem;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.calisma .img{
+   
+   text-align: center;
+}
+.calisma .img img{
+    border-radius: 10%;
+    margin-bottom: 6rem;
+}
+
+/* ************************************ Ekip Start ********************************/
+.ekip{
+    margin-top: 4rem;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+}
+.ekip p{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.ekip .box{
+    background: var(--green-black-black);
+    box-shadow: 8px 8px var(--black); 
+}
+.ekip .box img{
+    border-radius: 50%;
+    height: 20rem;
+    width: 50%;
+    padding-top: 2rem;
+    border-bottom: 2px solid var(--green-black-light);
+}
+
+.ekip .box .kisi h3{ 
+    color: var(--white);
+    padding: 2rem 0 1rem 0;
+   
+}
+.ekip .box .kisi h5{
+    color: var(--white);
+    text-align: start;
+    padding-left: 2.5rem;
+}
+.ekip .box .kisi p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--white);
+    text-align: start;
+    padding-left: 2.5rem;
+}
+
+.ekip .box .kisi p span{
+    text-transform: none;
+    color: var(--white);
+}
