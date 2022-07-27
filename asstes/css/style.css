@@ -283,12 +283,13 @@ nav ul li{
     padding-bottom: 1rem;
 }
 .calisma .img{
-   
+   padding: 3rem 10rem;
    text-align: center;
 }
 .calisma .img img{
     border-radius: 10%;
     margin-bottom: 6rem;
+    width: 100%;
 }
 
 /* ************************************ Ekip Start ********************************/
@@ -336,4 +337,121 @@ nav ul li{
 .ekip .box .kisi p span{
     text-transform: none;
     color: var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ************************************ Responsive styles ********************************/
+@media screen and (max-width: 600px) {
+    .images .box{
+        margin-left: -5rem;
+        width: 120%;
+    }
+    .images .box h5{
+        font-size: 1rem; 
+    }
+    .images .box p{
+        font-size: 2rem; 
+    }
+    .images .box h4{
+        font-size: 1.2rem;
+     }
+     /* ******************************************** we  ******************************** */
+    .we .box{
+        padding-top: 1.5rem;
+        height: 200px;
+        width: 400px;
+        padding-left: 3.6rem;
+        margin:0 2rem;
+        
+    }
+    .we .box img{
+        width: 100%;
+        box-shadow: 15px 15px 5px var(--green-black-black);
+        height: 100%;
+    }
+    .we .box1{
+        height: 170px;
+        width: 400px;
+        padding-left: 3.6rem;
+        margin:11rem 2rem 0rem 3.6rem;
+        text-align: justify;
+        font-size: 1.4rem;
+        padding: 2rem 2rem 0 2rem;   
+    }
+   
+    .rero img{
+        height: 200px;
+        width: 200px;
+        -webkit-transform: rotate(-90deg);
+        float: right;
+        margin-top: -6rem;
+    }
+    .rero1 img{
+        height: 200px;
+        width: 200px;
+        -webkit-transform: rotate(0deg);
+        float: left;
+        margin-top: -30rem;
+    } 
+
+    /*********************************************** services **************** */
+    .üst{
+        padding-top: -3rem;
+    }
+    .services{
+        margin-top: 13rem;
+    }
+    .services .yazi{
+        text-align: center;
+        padding: 0 0rem;
+    }
+   
+    .alt{ 
+        padding-top: 8rem;
+    }
+    /* ************************************ Calisma ******************************** */
+    .calisma{
+        background: var(--green-black-black);
+        margin-top: 6rem;
+        align-items: center;
+    }
+    .calisma .üst{
+        margin-top: 5rem;
+    }
+    .calisma p{
+        color: var(--white);
+        padding-top: 3rem;
+        font-size: 3rem;
+        font-weight: 600;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .calisma .img{
+        padding: 3rem 6rem;
+        text-align: center;
+     }
+     .calisma .img img{
+         border-radius: 10%;
+         margin-bottom: 6rem;
+         width: 100%;
+       
+     }
 }
