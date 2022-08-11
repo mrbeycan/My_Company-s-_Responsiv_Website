@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-:root{
-    --green-black-black:#689e04;
-    --green-black-normal:#7dbd09;
-    --green-black-light:#94dd0c;
-    --white:#f0f0f0;
-    --black:#1b1722;
+
+:root {
+    --green-black-black: #689e04;
+    --green-black-normal: #7dbd09;
+    --green-black-light: #94dd0c;
+    --white: #f0f0f0;
+    --black: #1b1722;
     --box-shadow: 0 0px 4px rgba(0, 0, 0, 0.25);
 }
-*{
+
+* {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -16,55 +18,74 @@
     border: none;
     text-transform: capitalize;
     transition: .2s linear;
+
 }
-html{
+
+html {
     font-size: 68.5%;
     overflow-x: hidden;
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
 }
-html::-webkit-scrollbar{
+
+html::-webkit-scrollbar {
     width: .8rem;
 }
-html::-webkit-scrollbar-track{
+
+html::-webkit-scrollbar-track {
     background: transparent;
 }
-html::-webkit-slider-thumb{
+
+html::-webkit-slider-thumb {
     background-color: var(--white);
     border-radius: 5rem;
 }
+
 /*********************** Navbar START ****************************************/
-.ustmenu{
-    position:fixed; 
-    top:0px; left:0px; right:0px; 
-    height:70px;
+.ustmenu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
     z-index: 9999;
-    padding:0 3rem;
+    padding: 0 3rem;
 }
-nav{
-    background-color: rgba(0, 0, 0, 0.336);   
-    font-weight: 700;  
+
+nav {
+    background-color: rgba(0, 0, 0, 0.336);
+    font-weight: 700;
 }
-nav img{
+
+nav img {
     height: 60px;
     width: 120px;
     padding-left: 3rem;
 }
-nav ul li{
+
+nav ul li {
     padding-left: 2rem;
 }
+
+.fsz {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: -4px;
+}
+
 /*********************** Navbar END ****************************************/
 
 /******************************* Menu START ******************************************/
-.images{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.795),rgba(0, 0, 0, 0.664)), url(/asstes/images/baçivna-fotoğrafı.jpg);  
+.images {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.664)), url(/asstes/images/baçivna-fotoğrafı.jpg);
     height: 670px;
     background-repeat: no-repeat;
     background-attachment: scroll;
     width: 100%;
-    background-size: cover;   
+    background-size: cover;
 }
-.images .box{
+
+.images .box {
     text-align: center;
     font-size: 4rem;
     font-weight: bold;
@@ -72,61 +93,77 @@ nav ul li{
     padding: 15rem;
     color: var(--white);
 }
-.images .box h5{
+
+.images .box h5 {
     color: var(--green-black-light);
 }
-.images .box h4{
-   font-weight:100;
-   line-height: 2.5rem;
-   text-transform: none;
+
+.images .box h4 {
+    font-weight: 100;
+    line-height: 2.5rem;
+    text-transform: none;
 }
-.icon{
+
+.images .box a {
+    text-decoration: none;
+    width: 30%;
+}
+
+.icon {
     background-color: #ffffff00;
     display: flex;
-    padding: 2rem;   
+    padding: 2rem;
     font-size: 2rem;
     color: var(--white);
 }
-.icon i{
+
+.icon i {
     margin-left: -2rem;
 }
-.icon p{
+
+.icon p {
     margin-top: .2rem;
     margin-left: 2rem;
 }
+
 /************************************* Menu END *****************************************/
 
 /****************************************** Biz Kimiz START ******************************/
-.we{
+.we {
     margin-top: 3rem;
     text-align: center;
 }
-.we .box{
-    
+
+.we .box {
+
     padding-top: 1.5rem;
     height: 100px;
-    margin:0 2rem;
+    margin: 0 2rem;
 }
-.we .box1{
-    background-color: var(--green-black-black); 
+
+.we .box1 {
+    background-color: var(--green-black-black);
     height: 140px;
-    margin:12rem 2rem 0rem 2rem;
+    margin: 12rem 2rem 0rem 2rem;
     text-align: justify;
     font-size: 1.4rem;
     padding: 2rem 2rem 0 2rem;
 }
-.we .box img{
+
+.we .box img {
     width: 100%;
     box-shadow: 15px 15px 5px var(--green-black-black);
 }
-.we .box1 p{
+
+.we .box1 p {
     font-size: 1.5rem;
     font-weight: 400;
     text-align: justify;
     color: var(--white);
     text-transform: none;
 }
-.rero img{
+
+.rero img {
     height: 200px;
     width: 200px;
     -webkit-transform: rotate(-90deg);
@@ -134,7 +171,8 @@ nav ul li{
     float: right;
     margin-top: 7rem;
 }
-.rero1 img{
+
+.rero1 img {
     height: 200px;
     width: 200px;
     -webkit-transform: rotate(0deg);
@@ -142,66 +180,79 @@ nav ul li{
     float: left;
     margin-top: 7rem;
 }
+
 /************************************* Biz Kimiz End ************************************/
 .services {
-    background-image:linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.2)), url(/asstes/images/toprak-ekimi.jpg);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.2)), url(/asstes/images/toprak-ekimi.jpg);
     margin-top: 30rem;
     height: 600px;
-    background-size: cover;   
+    background-size: cover;
 }
- .üst{
+
+.üst {
     padding-top: -3rem;
 }
 
-.services .yazi{
+.services .yazi {
     text-align: center;
     padding: 0 10rem;
 
 }
-.services .yazi h3{
+
+.services .yazi h3 {
     color: var(--white);
     padding-top: 9rem;
     font-weight: 400;
 }
-.services .yazi h1{
+
+.services .yazi h1 {
     color: var(--white);
     padding-top: 1rem;
     font-weight: 700;
 }
-.services .yazi .box{
+
+.services .yazi .box {
     margin-top: 5rem;
 }
-.services .yazi .box span{
+
+.services .yazi .box span {
     font-weight: 700;
     color: var(--white);
 }
-.services .yazi .box h4{
+
+.services .yazi .box h4 {
     color: var(--white);
     font-weight: 600;
     margin-top: 2rem;
 }
-.services .yazi .box p{
+
+.services .yazi .box p {
     color: var(--white);
-    font-weight: 400;  
+    font-weight: 400;
 }
-.alt{ 
+
+.alt {
     padding-top: 123px;
 }
+
 /****************************************** anlatim ****************************************/
-.anlatim{
+.anlatim {
     margin-top: 3rem;
     padding: 0 4rem;
+    display: block;
 }
-.anlatim p{
+
+.anlatim p {
     font-size: 3rem;
     text-align: center;
     padding-bottom: 1rem;
 }
 
-.anlatim .box img{
-   width: 100%;
-   height: 26rem;
+.anlatim .box img {
+    width: 100%;
+    height: 26rem;
 }
+
 .anlatim .box .img-title {
     position: absolute;
     display: block;
@@ -214,8 +265,9 @@ nav ul li{
     opacity: 0;
     color: var(--white);
     text-align: center;
- }
- .anlatim .box:hover::before{
+}
+
+.anlatim .box:hover::before {
     content: "";
     background: #1b17228a;
     display: block;
@@ -224,11 +276,13 @@ nav ul li{
     width: 100%;
     height: 100%;
     position: absolute;
- }
- .anlatim .box:hover .img-title{
+}
+
+.anlatim .box:hover .img-title {
     opacity: 1;
- }
- .anlatim .box .img-write{
+}
+
+.anlatim .box .img-write {
     position: absolute;
     display: block;
     top: 50%;
@@ -243,10 +297,12 @@ nav ul li{
     padding: 0 2rem;
     text-align: center;
 }
-.anlatim .box:hover .img-write{
+
+.anlatim .box:hover .img-write {
     opacity: 1;
 }
-.anlatim .box .yönetici{
+
+.anlatim .box .yönetici {
     position: absolute;
     display: block;
     top: 90%;
@@ -263,18 +319,94 @@ nav ul li{
     border-top: 2px solid var(--green-black-light);
     padding-top: 1rem;
 }
-.anlatim .box:hover .yönetici{
+
+.anlatim .box:hover .yönetici {
     opacity: 1;
 }
-.calisma{
+
+
+
+
+/* Çalışma start */
+.calisma {
     background: var(--green-black-black);
     margin-top: 6rem;
-    align-items: center;
+    width: 105%;
 }
-.calisma .üst{
+
+.calisma .üst {
     margin-top: 5rem;
 }
-.calisma p{
+
+.calisma .timeline {
+    margin: 0 auto;
+    width: 80%;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    color: #fff;
+}
+
+.calisma .timeline .timeline_component {
+    margin: 0 20px 20px 20px;
+}
+
+.calisma .timeline .timeline_component img {
+    width: 100%;
+    height: 85%;
+    transform: translate(0%, 5%);
+    text-align: center;
+}
+
+.calisma .timeline .timeline_component .timeline_jop-left {
+    text-align: left;
+}
+
+.calisma .timeline .timeline_component .timeline_jop-right {
+    text-align: right;
+}
+
+.calisma .timeline .timeline_middle {
+    position: relative;
+    background: #fff;
+}
+
+.calisma .timeline .timeline_middle .timeline_point {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.calisma .timeline .timeline_component-bg {
+    padding: 1.5em;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.calisma .timeline .timeline_component-bg h2 {
+    padding-top: 5rem;
+    text-align: center;
+
+}
+
+.calisma .timeline .timeline_component-bg .timeline_p {
+    line-height: 1.5;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--white);
+    transform: translateY(30%);
+    padding: 0 2rem;
+    text-align: justify;
+}
+
+.calisma p {
     color: var(--white);
     padding-top: 3rem;
     font-size: 3rem;
@@ -282,176 +414,1071 @@ nav ul li{
     text-align: center;
     padding-bottom: 1rem;
 }
-.calisma .img{
-   padding: 3rem 10rem;
-   text-align: center;
+
+.swiper-button-next,
+.swiper-button-prev {
+    margin-top: 1rem;
 }
-.calisma .img img{
-    border-radius: 10%;
-    margin-bottom: 6rem;
+
+
+/* ************************************ Ekip Start ********************************/
+.blog-slider {
+    width: 95%;
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    background: var(--white);
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 25px;
+    border-radius: 25px;
+    height: 400px;
+    transition: all 0.3s;
+}
+
+@media screen and (max-width: 992px) {
+    .blog-slider {
+        max-width: 680px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blog-slider {
+        min-height: 500px;
+        height: auto;
+        margin: 180px auto;
+    }
+}
+
+@media screen and (max-height: 500px) and (min-width: 992px) {
+    .blog-slider {
+        height: 350px;
+    }
+}
+
+.blog-slider__item {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .blog-slider__item {
+        flex-direction: column;
+    }
+}
+
+.blog-slider__item.swiper-slide-active .blog-slider__img img {
+    opacity: 1;
+    transition-delay: 0.3s;
+}
+
+.blog-slider__item.swiper-slide-active .blog-slider__content>* {
+    opacity: 1;
+    transform: none;
+}
+
+.blog-slider__img {
+    width: 300px;
+    flex-shrink: 0;
+    height: 300px;
+    background-image: linear-gradient(147deg, #fe8a39 0%, #689e04 74%);
+    box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
+    border-radius: 20px;
+    transform: translateX(-80px);
+    overflow: hidden;
+}
+
+.blog-slider__img:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.blog-slider__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    opacity: 0;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+    .blog-slider__img {
+        transform: translateY(-50%);
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .blog-slider__img {
+        width: 95%;
+    }
+}
+
+@media screen and (max-height: 500px) and (min-width: 992px) {
+    .blog-slider__img {
+        height: 270px;
+    }
+}
+
+.blog-slider__content {
+    padding-right: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .blog-slider__content {
+        margin-top: -80px;
+        text-align: center;
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .blog-slider__content {
+        padding: 0;
+    }
+}
+
+.blog-slider__content>* {
+    opacity: 0;
+    transform: translateY(25px);
+    transition: all 0.4s;
+}
+
+.blog-slider__code {
+    color: #7b7992;
+    margin-bottom: 15px;
+    display: block;
+    font-weight: 500;
+}
+
+.blog-slider__title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0d0925;
+    margin-bottom: 20px;
+}
+
+.blog-slider__text {
+    color: #4e4a67;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+    text-transform: none;
+}
+
+.blog-slider__button {
+    display: inline-flex;
+    background-image: linear-gradient(147deg, #fe8a39 0%, #689e04 74%);
+    padding: 15px 35px;
+    border-radius: 50px;
+    color: #fff;
+    box-shadow: 0px 14px 80px rgba(252, 56, 56, 0.4);
+    text-decoration: none;
+    font-weight: 500;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 2rem;
+}
+
+.blog-slider__button i {
+    font-size: 2rem;
+    margin-top: -1rem;
+}
+
+@media screen and (max-width: 576px) {
+    .blog-slider__button {
+        width: 100%;
+    }
+}
+
+.blog-slider .swiper-container-horizontal>.swiper-pagination-bullets,
+.blog-slider .swiper-pagination-custom,
+.blog-slider .swiper-pagination-fraction {
+    bottom: 10px;
+    left: 0;
     width: 100%;
 }
 
-/* ************************************ Ekip Start ********************************/
-.ekip{
-    margin-top: 4rem;
+.blog-slider__pagination {
+    position: absolute;
+    z-index: 21;
+    right: 20px;
+    width: 11px !important;
+    text-align: center;
+    left: auto !important;
+    top: 50%;
+    bottom: auto !important;
+    transform: translateY(-50%);
+}
+
+@media screen and (max-width: 768px) {
+    .blog-slider__pagination {
+        transform: translateX(-50%);
+        left: 50% !important;
+        top: 205px;
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 8px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 5px;
+    }
+}
+
+.blog-slider__pagination .swiper-pagination-bullet {
+    width: 11px;
+    height: 11px;
+    display: block;
+    border-radius: 10px;
+    background: #062744;
+    opacity: 0.2;
+    transition: all 0.3s;
+}
+
+.blog-slider__pagination .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #689e04;
+    height: 30px;
+    box-shadow: 0px 0px 20px rgba(252, 56, 56, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+
+    .blog-slider__pagination .swiper-pagination-bullet-active {
+        height: 11px;
+        width: 30px;
+    }
+
+}
+
+
+
+
+
+/******************************* Tasarim Bölümü START ******************************************/
+
+/******************************* Menu START ******************************************/
+.tasarim-images {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.664)), url(/asstes/images/çiçek\ ekimi.jpg);
+    height: 670px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+    margin-top: 20rem;
+}
+
+.tasarim-images .box {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    color: var(--white);
+}
+
+
+
+/************************************* Menu END *****************************************/
+
+
+/******************************* Tasarim Bölümü END ******************************************/
+
+/* **********************    iletişim  ******************* */
+.iletisim {
+    height: 590px;
     align-items: center;
     text-align: center;
-    padding: 4rem;
+    padding: 6rem 4rem 0 4rem;
 }
-.ekip p{
+
+.iletisim p {
     font-size: 3rem;
-    padding-bottom: 2rem;
-}
-.ekip .box{
-    background: var(--green-black-black);
-    box-shadow: 8px 8px var(--black); 
-}
-.ekip .box img{
-    border-radius: 50%;
-    height: 20rem;
-    width: 50%;
-    padding-top: 2rem;
-    border-bottom: 2px solid var(--green-black-light);
-}
-
-.ekip .box .kisi h3{ 
-    color: var(--white);
-    padding: 2rem 0 1rem 0;
-   
-}
-.ekip .box .kisi h5{
-    color: var(--white);
-    text-align: start;
-    padding-left: 2.5rem;
-}
-.ekip .box .kisi p{
-    font-size: 1.5rem;
     font-weight: 500;
-    text-decoration: none;
-    color: var(--white);
-    text-align: start;
-    padding-left: 2.5rem;
 }
 
-.ekip .box .kisi p span{
+.iletisim img {
+    margin-top: -3rem;
+}
+
+.iletisim label {
+    float: left;
+    font-size: 1.5rem;
     text-transform: none;
-    color: var(--white);
+    text-decoration: none;
 }
 
+.iletisim input {
 
+    text-transform: none;
+    text-decoration: none;
+}
 
+.iletisim .bolum {
+    margin-top: 7rem;
+}
 
+.iletisim .bolum .box {
+    padding-left: 2rem;
+    width: 40%;
+}
 
+.iletisim .bolum .box input {
+    background-color: RGB(255, 233, 147);
+    border-radius: 10px;
+}
 
+.iletisim .bolum .box textarea {
+    height: 160px;
+}
 
+.iletisim .bolum .box button {
+    background-color: RGB(255, 233, 147);
+    padding: 1rem 2rem;
+    border-radius: 20px;
+}
 
+.iletisim .bolum .box button:hover {
+    background-color: #b2b0f7;
+    padding: 1.2rem 2.5rem;
+}
 
+/******************************* Footer START ************************************************/
+.footer {
+    background: #222222;
+    width: 100%;
+    height: 269px;
+    float: left;
+    color: white;
+    font-family: arial;
+}
 
+.footer #kutu b {
+    font-size: 14px;
+}
 
+.footer_container {
+    width: 768px;
+    height: 175px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
 
+#kutu ul {
+    list-style-type: none;
+    margin: 17px 0;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
 
+#kutu {
+    width: auto;
+    height: 125px;
+    float: left;
+}
 
+#kutu ul li {
+    float: left;
+    font-family: tahoma;
+    font-size: 12px;
+    margin-bottom: 8px;
+    clear: left;
+    color: #949798;
+    text-transform: none;
 
+}
 
+#kutu ul li a {
+    text-decoration: none;
+    color: #949798;
+
+}
+
+#kutu ul li i {
+    font-size: 15px;
+}
+
+#kutu ul li a span {
+    padding-left: .5rem;
+    padding-top: .6rem;
+}
+
+.footer p {
+    text-align: center;
+    color: #949798;
+}
 
 
 
 
 /* ************************************ Responsive styles ********************************/
 @media screen and (max-width: 600px) {
-    .images .box{
-        margin-left: -5rem;
-        width: 120%;
+
+    /* ********************** Navbar Responsive ************************ */
+    .ustmenu {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 70px;
+        z-index: 9999;
+        padding: 0 0;
     }
-    .images .box h5{
-        font-size: 1rem; 
+    nav img {
+        height: 60px;
+        width: 120px;
+        margin-left: -40px;
     }
-    .images .box p{
-        font-size: 2rem; 
+    
+    .navbar-toggler {
+        background: rgb(207, 207, 207);
+        transform: translateX(100px) 
     }
-    .images .box h4{
+    nav:hover {
+        background-color: rgb(0, 0, 0);
+        font-weight: 700;
+    }
+    nav:hover .navbar-toggler{
+        background-color: var(--green-black-black);
+        font-weight: 700;
+    }
+    .navbar-nav{
+        position: absolute;
+        height: 140px;
+        left: 0px;
+        margin-top: 3.2rem; 
+        width: 100%;
+        
+    }
+    nav:hover .navbar-nav{
+        
+        background-color: rgb(0, 0, 0);
+    }
+    .navbar-nav li:hover{
+        background-color: var(--green-black-black);
+    }
+
+    .fsz {
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: -4px;
+    }
+    
+   
+    .images .box {
+        margin-left: -13rem;
+        width: 180%;
+    }
+
+    .images .box h5 {
+        font-size: 1rem;
+        margin-top: 5rem;
+    }
+
+    .images .box p {
+        font-size: 2rem;
+        
+    }
+    .images .box a {
+        width: 220%;
+        
+    }
+    .images .box h4 {
         font-size: 1.2rem;
-     }
-     /* ******************************************** we  ******************************** */
-    .we .box{
+    }
+
+    .calisma .üst {
+        margin-top: -110rem;
+    }
+
+    /* ******************************************** we  ******************************** */
+    .we .box {
         padding-top: 1.5rem;
         height: 200px;
         width: 400px;
         padding-left: 3.6rem;
-        margin:0 2rem;
-        
+        margin: 0 2rem;
+
     }
-    .we .box img{
+
+    .we .box img {
         width: 100%;
         box-shadow: 15px 15px 5px var(--green-black-black);
         height: 100%;
     }
-    .we .box1{
+
+    .we .box1 {
         height: 170px;
         width: 400px;
         padding-left: 3.6rem;
-        margin:11rem 2rem 0rem 3.6rem;
+        margin: 11rem 2rem 0rem 3.6rem;
         text-align: justify;
-        font-size: 1.4rem;
-        padding: 2rem 2rem 0 2rem;   
+        font-size: .7rem;
+        padding: 2rem 2rem 0 2rem;
     }
-   
-    .rero img{
+    .we .box1 p{
+        padding-top: 3rem;
+        font-size: 1.1rem;
+        
+    }
+
+    .rero img {
         height: 200px;
         width: 200px;
         -webkit-transform: rotate(-90deg);
         float: right;
         margin-top: -6rem;
     }
-    .rero1 img{
+
+    .rero1 img {
         height: 200px;
         width: 200px;
         -webkit-transform: rotate(0deg);
         float: left;
         margin-top: -30rem;
-    } 
+    }
 
     /*********************************************** services **************** */
-    .üst{
+    .üst {
         padding-top: -3rem;
     }
-    .services{
+
+    .services {
         margin-top: 13rem;
     }
-    .services .yazi{
+
+    .services .yazi {
         text-align: center;
         padding: 0 0rem;
     }
-   
-    .alt{ 
+
+
+    .alt {
         padding-top: 8rem;
     }
-    /* ************************************ Calisma ******************************** */
-    .calisma{
+
+
+
+
+    /* ********************** Ekip Start  ************************** */
+    .blog-slider {
+        margin-bottom: -50rem;
+    }
+
+    /* ********************** Nasıl Çalışıyoruz Responsive Start  ************************** */
+    .calisma {
         background: var(--green-black-black);
         margin-top: 6rem;
         align-items: center;
+        padding-right: 2rem;
     }
-    .calisma .üst{
+
+    .calisma .üst {
+        margin-top: 55rem;
+    }
+
+    .calisma .timeline {
+        margin: 0 auto;
+        width: 100%;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: 1fr 3px 1fr;
+        color: #fff;
+    }
+
+    .calisma .timeline .timeline_component {
+        margin: 0 20px 20px 20px;
+    }
+
+    .calisma .timeline .timeline_component img {
+        width: 100%;
+        height: 80%;
+        transform: translate(0%, 5%);
+        text-align: center;
+    }
+
+
+    .calisma .timeline .timeline_component-bg {
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        font-size: 1rem;
+    }
+
+    .calisma .timeline .timeline_component-bg h2 {
+        padding-top: 1rem;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    .calisma .timeline .timeline_component-bg .timeline_p {
+        line-height: 1.2;
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--white);
+        transform: translateY(0%);
+        width: 100%;
+        padding: 0 .2rem;
+        text-align: justify;
+    }
+    .ekip h1{
+        margin-bottom: -4rem;
+    }
+
+    /* ********************** İletişim Responsive Start  ************************** */
+    .iletisim {
+        height: 590px;
+        align-items: center;
+        text-align: center;
+        padding: 6rem 1rem 0 1rem;
+        margin-bottom: 6rem;
+    }
+
+    .iletisim p {
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    .iletisim img {
+        margin-top: -3rem;
+        margin-left: -8rem;
+    }
+
+    .iletisim label {
+        float: left;
+        font-size: .9rem;
+        text-transform: none;
+        text-decoration: none;
+    }
+
+    .iletisim input {
+        text-transform: none;
+        text-decoration: none;
+    }
+
+    .iletisim .bolum {
+        margin-top: 7rem;
+    }
+
+    .iletisim .bolum .box {
+        padding-left: 2rem;
+        width: 50%;
+    }
+
+    /******************************* Footer START ************************************************/
+    .footer {
+        background: #222222;
+        width: 100%;
+        height: 269px;
+        float: left;
+        color: white;
+        font-family: arial;
+    }
+
+    .footer #kutu b {
+        font-size: 14px;
+    }
+
+    .footer_container {
+        width: 768px;
+        height: 175px;
+        margin: 30px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    #kutu {
+        width: auto;
+        height: 125px;
+        margin-left: 10px;
+    }
+    #kutu:nth-child(1) {
+        margin-left: 3.5rem;
+    }
+    #kutu:nth-child(3) {
+        visibility: hidden;
+    }
+    #kutu ul {
+        list-style-type: none;
+        margin: 17px 0;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    #kutu ul li {
+        float: left;
+        font-family: tahoma;
+        font-size: 12px;
+        margin-bottom: 8px;
+        clear: left;
+        color: #949798;
+        text-transform: none;
+
+    }
+
+    #kutu ul li a {
+        text-decoration: none;
+        color: #949798;
+
+    }
+
+    #kutu ul li i {
+        font-size: 15px;
+    }
+
+    #kutu ul li a span {
+        padding-left: .5rem;
+        padding-top: .6rem;
+    }
+
+    .footer p {
+        text-align: center;
+        color: #949798;
+    }
+}
+
+/* **********************  Tablet Responsive ******************************** */
+@media screen and (min-width: 600px) and (max-width: 1250px){
+    /* ********************** Navbar Responsive ************************ */
+    .ustmenu {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 70px;
+        z-index: 9999;
+        padding: 0 0;
+    }
+    nav img {
+        height: 60px;
+        width: 120px;
+        margin-left: -40px;
+    }
+    
+    .navbar-toggler {
+        background: rgb(207, 207, 207);
+        margin-right: -60%;
+    }
+    nav:hover {
+        background-color: rgb(0, 0, 0);
+        font-weight: 700;
+    }
+    nav:hover .navbar-toggler{
+        background-color: var(--green-black-black);
+        font-weight: 700;
+    }
+    .navbar-nav{
+        position: absolute;
+        height: 140px;
+        left: 0px;
+        margin-top: 3.2rem; 
+        width: 100%;
+        
+    }
+    nav:hover .navbar-nav{
+        
+        background-color: rgb(0, 0, 0);
+    }
+    .navbar-nav li:hover{
+        background-color: var(--green-black-black);
+    }
+
+    .fsz {
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: -4px;
+    }
+    
+   
+    .images .box {
+        margin-left: -13rem;
+        width: 100%;
+    }
+
+    .images .box h5 {
+        font-size: 1rem;
         margin-top: 5rem;
     }
-    .calisma p{
-        color: var(--white);
-        padding-top: 3rem;
-        font-size: 3rem;
-        font-weight: 600;
-        text-align: center;
-        padding-bottom: 1rem;
+
+    .images .box p {
+        font-size: 2rem;
+        
     }
-    .calisma .img{
-        padding: 3rem 6rem;
+    .images .box a {
+        width: 220%;
+        
+    }
+    .images .box h4 {
+        font-size: 1.2rem;
+    }
+
+    .calisma .üst {
+        margin-top: -110rem;
+    }
+
+    /* ******************************************** we  ******************************** */
+    .we .box {
+        padding-top: 1.5rem;
+        height: 70%;
+        width: 70%;
+        padding-left: 3.6rem;
+        margin-left: 12rem;
+
+    }
+
+    .we .box img {
+        width: 100%;
+        box-shadow: 15px 15px 5px var(--green-black-black);
+        height: 100%;
+    }
+
+    .we .box1 {
+        height: 170px;
+        width: 70%;
+        padding-left: 3.6rem;
+        margin-left: 14rem;
+        text-align: justify;
+        font-size: .7rem;
+        padding: 2rem 2rem 0 2rem;
+    }
+    .we .box1 p{
+        padding-top: 3rem;
+        font-size: 1.1rem;
+        
+    }
+
+    .rero img {
+        height: 200px;
+        width: 200px;
+        -webkit-transform: rotate(-90deg);
+        float: right;
+        margin-top: -6rem;
+    }
+
+    .rero1 img {
+        height: 200px;
+        width: 200px;
+        -webkit-transform: rotate(0deg);
+        float: left;
+        margin-top: -30rem;
+    }
+
+    /*********************************************** services **************** */
+    .üst {
+        padding-top: -3rem;
+    }
+
+    .services {
+        margin-top: 13rem;
+    }
+
+    .services .yazi {
         text-align: center;
-     }
-     .calisma .img img{
-         border-radius: 10%;
-         margin-bottom: 6rem;
-         width: 100%;
-       
-     }
+        padding: 0 0rem;
+    }
+
+
+    .alt {
+        padding-top: 10rem;
+    }
+
+
+
+
+    /* ********************** Ekip Start  ************************** */
+    .blog-slider {
+        margin-bottom: -50rem;
+    }
+
+    /* ********************** Nasıl Çalışıyoruz Responsive Start  ************************** */
+    .calisma {
+        background: var(--green-black-black);
+        margin-top: 6rem;
+        align-items: center;
+        padding-right: 4rem;
+    }
+
+    .calisma .üst {
+        margin-top: 55rem;
+    }
+
+    .calisma .timeline {
+        margin: 0 auto;
+        width: 100%;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: 1fr 3px 1fr;
+        color: #fff;
+    }
+
+    .calisma .timeline .timeline_component {
+        margin: 0 20px 20px 20px;
+    }
+
+    .calisma .timeline .timeline_component img {
+        width: 100%;
+        height: 80%;
+        transform: translate(0%, 5%);
+        text-align: center;
+    }
+
+
+    .calisma .timeline .timeline_component-bg {
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        font-size: 1rem;
+    }
+
+    .calisma .timeline .timeline_component-bg h2 {
+        padding-top: 3rem;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .calisma .timeline .timeline_component-bg .timeline_p {
+        line-height: 1.2;
+        font-size: 1.7rem;
+        font-weight: 500;
+        color: var(--white);
+        transform: translateY(0%);
+        width: 100%;
+        padding: 0 .2rem;
+        padding-top: 2rem;
+        text-align: justify;
+    }
+    .ekip h1{
+        margin-bottom: -4rem;
+    }
+
+    /* ********************** İletişim Responsive Start  ************************** */
+    .iletisim {
+        height: 590px;
+        align-items: center;
+        text-align: center;
+        padding: 6rem 1rem 0 1rem;
+        margin-bottom: 6rem;
+    }
+
+    .iletisim p {
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    .iletisim img {
+        margin-top: -3rem;
+        margin-left: -8rem;
+    }
+
+    .iletisim label {
+        float: left;
+        font-size: .9rem;
+        text-transform: none;
+        text-decoration: none;
+    }
+
+    .iletisim input {
+        text-transform: none;
+        text-decoration: none;
+    }
+
+    .iletisim .bolum {
+        margin-top: 7rem;
+    }
+
+    .iletisim .bolum .box {
+        padding-left: 2rem;
+        width: 50%;
+    }
+
+    /******************************* Footer START ************************************************/
+    .footer {
+        background: #222222;
+        width: 100%;
+        height: 269px;
+        float: left;
+        color: white;
+        font-family: arial;
+    }
+
+    .footer #kutu b {
+        font-size: 14px;
+    }
+
+    .footer_container {
+        width: 768px;
+        height: 175px;
+        margin: 30px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    #kutu {
+        width: auto;
+        height: 125px;
+        margin-left: 10px;
+    }
+   
+    #kutu ul {
+        list-style-type: none;
+        margin: 17px 0;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    #kutu ul li {
+        float: left;
+        font-family: tahoma;
+        font-size: 12px;
+        margin-bottom: 8px;
+        clear: left;
+        color: #949798;
+        text-transform: none;
+
+    }
+
+    #kutu ul li a {
+        text-decoration: none;
+        color: #949798;
+
+    }
+
+    #kutu ul li i {
+        font-size: 15px;
+    }
+
+    #kutu ul li a span {
+        padding-left: .5rem;
+        padding-top: .6rem;
+    }
+
+    .footer p {
+        text-align: center;
+        color: #949798;
+    }
 }

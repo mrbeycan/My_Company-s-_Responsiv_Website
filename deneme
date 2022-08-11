@@ -1,0 +1,117 @@
+ <!-- Ekip Start -->
+      <div class="ekip swiper" id="ekip">
+        <p>Takımımız</p>
+        <div class="swiper-wrapper">
+          <div class="box swiper-slide">
+            <div class="img">
+              <img src="asstes/images/takım/WhatsApp Image 2021-02-18 at 13.42.10.jpeg" alt="">
+            </div>
+            <div class="kisi">
+              <h3>Yunus Emre BEYCAN</h3>
+              <h5>İletişim</h5>
+              <p>
+                <i class="ri-phone-line"></i>
+                545 249 39 60 <br> <span>
+                <i class="ri-mail-send-line"></i>  
+                emrebeycan1@gmail.com</span></p>
+            </div>
+          </div>
+          <div class="box swiper-slide">
+            <div class="img">
+              <img src="asstes/images/takım/ELİF CV.jpeg" alt="">
+            </div>
+            <div class="kisi">
+              <h3>Yunus Emre BEYCAN</h3>
+              <h5>İletişim</h5>
+              <p>
+                <i class="ri-phone-line"></i>
+                525 249 55 22 <br> <span>
+                <i class="ri-mail-send-line"></i>  
+                elifbeycan@gmail.com</span></p>
+            </div>
+          </div>
+          <div class="box swiper-slide">
+            <div class="img">
+              <img src="asstes/images/takım/WhatsApp Image 2021-02-18 at 13.42.10.jpeg" alt="">
+            </div>
+            <div class="kisi">
+              <h3>Yunus Emre BEYCAN</h3>
+              <h5>İletişim</h5>
+              <p>
+                <i class="ri-phone-line"></i>
+                545 249 39 60 <br> <span>
+                <i class="ri-mail-send-line"></i>  
+                emrebeycan1@gmail.com</span></p>
+            </div>
+          </div>
+          <div class="box swiper-slide">
+            <div class="img">
+              <img src="asstes/images/takım/WhatsApp Image 2021-02-18 at 13.42.10.jpeg" alt="">
+            </div>
+            <div class="kisi">
+              <h3>Yunus Emre BEYCAN</h3>
+              <h5>İletişim</h5>
+              <p>
+                <i class="ri-phone-line"></i>
+                545 249 39 60 <br> <span>
+                <i class="ri-mail-send-line"></i>  
+                emrebeycan1@gmail.com</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    <!-- Ekip End -->
+
+
+
+    <!-- CSS -->
+
+    /* ************************************ Ekip Start ********************************/
+.ekip{
+    margin-top: 4rem;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+}
+.ekip p{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.ekip .box{
+    background: var(--green-black-black);
+    box-shadow: 8px 8px var(--black); 
+}
+.ekip .box img{
+    border-radius: 50%;
+    height: 20rem;
+    width: 50%;
+    padding-top: 2rem;
+    border-bottom: 2px solid var(--green-black-light);
+}
+
+.ekip .box .kisi h3{ 
+    color: var(--white);
+    padding: 2rem 0 1rem 0;
+   
+}
+.ekip .box .kisi h5{
+    color: var(--white);
+    text-align: start;
+    padding-left: 2.5rem;
+}
+.ekip .box .kisi p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--white);
+    text-align: start;
+    padding-left: 2.5rem;
+}
+
+.ekip .box .kisi p span{
+    text-transform: none;
+    color: var(--white);
+}
